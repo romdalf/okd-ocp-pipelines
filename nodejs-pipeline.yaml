@@ -14,6 +14,7 @@ spec:
     jenkinsPipelineStrategy:
       jenkinsfile: >-
         def templatePath = 'nodejs-mongodb'
+
         def templateName = 'nodejs-mongodb'
 
         pipeline {
