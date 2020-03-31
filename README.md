@@ -1,46 +1,20 @@
-= OKD/OCP Jenkins Pipeline Examples
-:toc: 
-:toc-placement!:
+# OKD/OCP Jenkins Pipeline Examples
 
-toc::[]
-
-== Prerequesites 
+## Prerequesites 
 
 - a working OKD/OCP (see minishift or crc for test environment)
 - a project namespace
 - a jenkins instance deployed within the project namespace (not for Basic NGINX build)
 
-== Basic NGINX build 
+## Basic NGINX build 
 
 This example shows a basic external webhook from github after building a NGINX instance with the
 "basic-html-page" directory. 
 
-To use it, you can do the following from the Developer view:
-
+To use it, you can do the following from the OKD/OCP GUI:
 
 ![preview](https://raw.githubusercontent.com/rovandep/ocp-nodejs-pipeline/master/images/basic-html-page-01.gif)
-
-
-- click "Project" and "Create Project"
-- create 2 projects, one for dev and one for production
-- select one of the created projects
-- click "+Add"
-- click "From Catalog"
-- in the search field type "nginx"
-- select "Nginx HTTP server and a reverse proxy" & click "Instantiate Template"
-- fill in "Name" with a meaningful unique one
-- copy/paste the git repo url in "Git Repository URL"
-- fill in "Git Reference" with a branch (either master or dev related to your project)
-- fill in a "easy" secret for Github and Generic webhook (for testing only!)
-- repeat the above steps for the second project and choose a the second branch for the "Git Reference"
-
-At the end, check in Topology or in Builds, you should have 2 pods with the related index page from his branch. Click the pod in Topology and checking the tab "Resources" will provide you with the external route to access the page.
-
-Setup the Webhooks
-
-- for each projects, in Builds, Build Config Details, Ovreview, click "Click URL with Secret"
-- for the dev branch, in GitHub settings, Webhooks, setup the dev webhook URL with JSON payload and select "Pushes" in the option "Let me select individual events"; this will kick in a new build when developer will push changes to the dev branch of the repo
-- for the master branch, in GitHub, settings, Webhooks, setup the prd webhook URL with JSON payload and select "Pull Requests" and "Pushes" in the option "Let me select individual events"; this will kick in a new build when developer will merge and push from dev to master branch of the repo
+![preview](https://raw.githubusercontent.com/rovandep/ocp-nodejs-pipeline/master/images/basic-html-page-02.gif)
 
 == Simple nodejs example
 
