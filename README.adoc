@@ -8,7 +8,7 @@ toc::[]
 
 - a working OKD/OCP (see minishift or crc for test environment)
 - a project namespace
-- a jenkins instance deployed within the project namespace (not for Basic NGINX build)
+- a Jenkins instance deployed within the project namespace (not for Basic NGINX build)
 
 == Basic NGINX build 
 
@@ -27,6 +27,7 @@ To use it, you can do the following from the Developer view:
 - fill in "Name" with a meaningful unique one
 - copy/paste the git repo url in "Git Repository URL"
 - fill in "Git Reference" with a branch (either master or dev related to your project)
+- fill in "Context Directory" with "basic-html-page"
 - fill in a "easy" secret for Github and Generic webhook (for testing only!)
 - repeat the above steps for the second project and choose a the second branch for the "Git Reference"
 
