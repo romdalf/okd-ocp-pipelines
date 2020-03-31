@@ -19,7 +19,7 @@ To use it, you can do the following from the Developer view:
 
 
 [link=https://raw.githubusercontent.com/rovandep/ocp-nodejs-pipeline/master/images/Peek%202020-03-31%2020-47.gif]
-image::"Peek%202020-03-31%2020-47.gif"[]
+image::Peek%202020-03-31%2020-47.gif[]
 
 
 - click "Project" and "Create Project"
