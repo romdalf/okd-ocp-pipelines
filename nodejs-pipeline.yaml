@@ -13,9 +13,9 @@ spec:
     type: JenkinsPipeline
     jenkinsPipelineStrategy:
       jenkinsfile: >-
-        def templatePath = 'nodejs-mongodb-master'
+        def templatePath = 'nodejs-mongodb-example'
 
-        def templateName = 'nodejs-mongodb-master'
+        def templateName = 'nodejs-mongodb-example'
 
         pipeline {
             agent {
