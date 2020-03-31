@@ -1,17 +1,17 @@
-# OKD/OCP Jenkins Pipeline Examples
+= OKD/OCP Jenkins Pipeline Examples
 
 :toc: 
 :toc-placement!:
 
 toc::[]
 
-## Prerequesites 
+== Prerequesites 
 
 - a working OKD/OCP (see minishift or crc for test environment)
 - a project namespace
 - a jenkins instance deployed within the project namespace
 
-## Simple nodejs example
+== Simple nodejs example
 
 This example is a quick and dirty way to show the usage of a buildconfig YAML file to create a 
 Build Config within OKD/OCP that will use a Jenkins instance within the namespace to build
