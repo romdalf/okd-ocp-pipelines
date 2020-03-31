@@ -1,7 +1,7 @@
 kind: BuildConfig
 apiVersion: build.openshift.io/v1
 metadata:
-  name: nodejs-dev-pipeline
+  name: nodejs-pipeline
   //  namespace: 
 spec:
   nodeSelector: {}
