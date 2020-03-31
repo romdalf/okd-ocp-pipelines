@@ -21,6 +21,7 @@ To use it, you can do the following from the Developer view:
 [link=https://raw.githubusercontent.com/rovandep/ocp-nodejs-pipeline/master/images/basic-html-page-01.gif]
 image::basic-html-page-01.gif[]
 
+
 - click "Project" and "Create Project"
 - create 2 projects, one for dev and one for production
 - select one of the created projects
