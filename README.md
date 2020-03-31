@@ -13,6 +13,10 @@ This example shows a basic external webhook from github after building a NGINX i
 
 ![preview](https://raw.githubusercontent.com/rovandep/ocp-nodejs-pipeline/master/images/basic-html-page-01.gif)
 ![preview](https://raw.githubusercontent.com/rovandep/ocp-nodejs-pipeline/master/images/basic-html-page-02.gif)
+![preview](https://raw.githubusercontent.com/rovandep/ocp-nodejs-pipeline/master/images/basic-html-page-03.gif)
+![preview](https://raw.githubusercontent.com/rovandep/ocp-nodejs-pipeline/master/images/basic-html-page-04.gif)
+![preview](https://raw.githubusercontent.com/rovandep/ocp-nodejs-pipeline/master/images/basic-html-page-05.gif)
+
 
 Repeat for a second 
 
