@@ -1,0 +1,35 @@
+# OKD/OCP Jenkins Pipeline Examples
+
+:toc: 
+:toc-placement!:
+
+toc::[]
+
+## Prerequesites 
+
+- a working OKD/OCP (see minishift or crc for test environment)
+- a project namespace
+- a jenkins instance deployed within the project namespace
+
+## Simple nodejs example
+
+This example is a quick and dirty way to show the usage of a buildconfig YAML file to create a 
+Build Config within OKD/OCP that will use a Jenkins instance within the namespace to build
+a simple ephemeral nodejs & mongodb instances with a working external route. 
+
+To use it, you can either: 
+``` 
+oc create -f https://raw.githubusercontent.com/rovandep/ocp-nodejs-pipeline/master/nodejs-pipeline.yaml
+
+oc get buildconfig
+NAME                     TYPE              FROM   LATEST
+nodejs-pipeline          JenkinsPipeline          6
+
+oc start-build nodejs-pipeline
+``` 
+
+or from the project namespace Status or in Build Configs, click "Add, Import YAML" and copy/paste 
+the contain of "nodejs-pipeline.yaml"
+
+Once added, you can click the "Start Build" which will redirect you to the Build details. From that page,
+the Jenkins pipeline job overview can be observed or click on "View Logs" to open Jenkins. 
