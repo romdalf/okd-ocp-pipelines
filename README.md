@@ -9,7 +9,7 @@
 
 - a working OKD/OCP (see minishift or crc for test environment)
 - a project namespace
-- a jenkins instance deployed within the project namespace (not for Basic NGINX build)
+- a Jenkins instance deployed within the project namespace (not for Basic NGINX build)
 
 ## Basic HTML page build 
 
@@ -57,9 +57,8 @@ NAME                       TYPE              FROM          STATUS     STARTED   
 nodejs-pipeline-1          JenkinsPipeline                 Complete   13 minutes ago   
 ``` 
 
-It can be done through GUI too:
-or from the project namespace Status or in Build Configs, click "Add, Import YAML" and copy/paste 
+This can also be done through GUI:
+from the project namespace Status or in Build Configs, click "Add, Import YAML" and copy/paste 
 the contain of "nodejs-pipeline.yaml"
-
 Once added, you can click the "Start Build" which will redirect you to the Build details. From that page,
 the Jenkins pipeline job overview can be observed or click on "View Logs" to open Jenkins. 
