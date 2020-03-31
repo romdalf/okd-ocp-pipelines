@@ -2,7 +2,7 @@
 
 - [OKD/OCP Jenkins Pipeline Examples](#okd-ocp-jenkins-pipeline-examples)
   * [Prerequisites](#prerequisites)
-  * [Basic NGINX build](#basic-nginx-build)
+  * [Basic NGINX build](#basic-html-page-build)
   * [Simple nodejs example](#simple-nodejs-example)
 
 ## Prerequesites 
@@ -11,7 +11,7 @@
 - a project namespace
 - a jenkins instance deployed within the project namespace (not for Basic NGINX build)
 
-## Basic NGINX build 
+## Basic HTML page build 
 
 This example shows a basic external webhook from github after building a NGINX instance with the
 "basic-html-page" directory. 
