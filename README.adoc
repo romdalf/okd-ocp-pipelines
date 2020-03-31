@@ -17,7 +17,10 @@ This example shows a basic external webhook from github after building a NGINX i
 
 To use it, you can do the following from the Developer view:
 
-image::https://github.com/rovandep/ocp-nodejs-pipeline/blob/master/images/Peek%202020-03-31%2020-47.gif(float="center")
+[source,asciidoc]
+----
+image::https://github.com/rovandep/ocp-nodejs-pipeline/blob/master/images/Peek%202020-03-31%2020-47.gif[]
+----
 
 - click "Project" and "Create Project"
 - create 2 projects, one for dev and one for production
