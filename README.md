@@ -2,7 +2,7 @@
 
 - [OKD/OCP Jenkins Pipeline Examples](#okd-ocp-jenkins-pipeline-examples)
   * [Prerequisites](#prerequisites)
-  * [Basic NGINX build](#basic-html-page-build)
+  * [Basic HTML page build](#basic-html-page-build)
   * [Simple nodejs example](#simple-nodejs-example)
 
 ## Prerequesites 
