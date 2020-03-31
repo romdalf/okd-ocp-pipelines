@@ -33,6 +33,7 @@ To use it, you can do the following from the Developer view:
 At the end, check in Topology or in Builds, you should have 2 pods with the related index page from his branch. Click the pod in Topology and checking the tab "Resources" will provide you with the external route to access the page.
 
 Setup the Webhooks
+
 - for each projects, in Builds, Build Config Details, Ovreview, click "Click URL with Secret"
 - for the dev branch, in GitHub settings, Webhooks, setup the dev webhook URL with JSON payload and select "Pushes" in the option "Let me select individual events"; this will kick in a new build when developer will push changes to the dev branch of the repo
 - for the master branch, in GitHub, settings, Webhooks, setup the prd webhook URL with JSON payload and select "Pull Requests" and "Pushes" in the option "Let me select individual events"; this will kick in a new build when developer will merge and push from dev to master branch of the repo
