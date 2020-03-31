@@ -1,5 +1,10 @@
 # OKD/OCP Jenkins Pipeline Examples
 
+- [OKD/OCP Jenkins Pipeline Examples](#okd-ocp-jenkins-pipeline-examples)
+  * [Prerequisites](#prerequisites)
+  * [Basic NGINX build](#basic-nginx-build)
+  * [Simple nodejs example](#simple-nodejs-example)
+
 ## Prerequesites 
 
 - a working OKD/OCP (see minishift or crc for test environment)
