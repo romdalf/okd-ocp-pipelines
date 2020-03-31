@@ -27,6 +27,7 @@ nodejs-pipeline          JenkinsPipeline          6
 
 oc start-build nodejs-pipeline
 
+oc get build
 NAME                       TYPE              FROM          STATUS     STARTED          DURATION
 nodejs-pipeline-1          JenkinsPipeline                 Complete   13 minutes ago   
 ``` 
