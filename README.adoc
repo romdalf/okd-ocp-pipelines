@@ -19,15 +19,13 @@ a simple ephemeral nodejs & mongodb instances with a working external route.
 
 To use it, it can be done through CLI: 
 ``` 
-oc create -f https://raw.githubusercontent.com/rovandep/ocp-nodejs-pipeline/master/nodejs-pipeline.yaml
-
-oc get buildconfig
+# oc create -f https://raw.githubusercontent.com/rovandep/ocp-nodejs-pipeline/master/nodejs-pipeline.yaml
+# oc get buildconfig
 NAME                     TYPE              FROM   LATEST
 nodejs-pipeline          JenkinsPipeline          6
 
-oc start-build nodejs-pipeline
-
-oc get build
+# oc start-build nodejs-pipeline
+# oc get build
 NAME                       TYPE              FROM          STATUS     STARTED          DURATION
 nodejs-pipeline-1          JenkinsPipeline                 Complete   13 minutes ago   
 ``` 
