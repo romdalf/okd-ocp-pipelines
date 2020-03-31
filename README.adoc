@@ -17,7 +17,7 @@ This example is a quick and dirty way to show the usage of a buildconfig YAML fi
 Build Config within OKD/OCP that will use a Jenkins instance within the namespace to build
 a simple ephemeral nodejs & mongodb instances with a working external route. 
 
-To use it, you can either: 
+To use it, it can be done through CLI: 
 ``` 
 oc create -f https://raw.githubusercontent.com/rovandep/ocp-nodejs-pipeline/master/nodejs-pipeline.yaml
 
@@ -26,8 +26,12 @@ NAME                     TYPE              FROM   LATEST
 nodejs-pipeline          JenkinsPipeline          6
 
 oc start-build nodejs-pipeline
+
+NAME                       TYPE              FROM          STATUS     STARTED          DURATION
+nodejs-pipeline-1          JenkinsPipeline                 Complete   13 minutes ago   
 ``` 
 
+It can be done through GUI too:
 or from the project namespace Status or in Build Configs, click "Add, Import YAML" and copy/paste 
 the contain of "nodejs-pipeline.yaml"
 
