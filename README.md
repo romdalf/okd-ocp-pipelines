@@ -11,10 +11,11 @@
 This example shows a basic external webhook from github after building a NGINX instance with the
 "basic-html-page" directory. 
 
-To use it, you can do the following from the OKD/OCP GUI:
-
 ![preview](https://raw.githubusercontent.com/rovandep/ocp-nodejs-pipeline/master/images/basic-html-page-01.gif)
 ![preview](https://raw.githubusercontent.com/rovandep/ocp-nodejs-pipeline/master/images/basic-html-page-02.gif)
+
+Repeat for a second 
+
 
 == Simple nodejs example
 
