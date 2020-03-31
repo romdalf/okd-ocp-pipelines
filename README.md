@@ -58,7 +58,9 @@ nodejs-pipeline-1          JenkinsPipeline                 Complete   13 minutes
 ``` 
 
 This can also be done through GUI:
+
 from the project namespace Status or in Build Configs, click "Add, Import YAML" and copy/paste 
-the contain of "nodejs-pipeline.yaml"
+the contain of "nodejs-pipeline.yaml".
+
 Once added, you can click the "Start Build" which will redirect you to the Build details. From that page,
 the Jenkins pipeline job overview can be observed or click on "View Logs" to open Jenkins. 
