@@ -1,5 +1,4 @@
 = OKD/OCP Jenkins Pipeline Examples
-
 :toc: 
 :toc-placement!:
 
