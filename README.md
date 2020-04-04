@@ -22,6 +22,7 @@ This example shows a basic external WebHook from GitHub after building a NGINX i
 "basic-html-page" directory available on this repo.
 Note that almost any Git services have WebHook capabilities, like with GitLab (check Settings/Integrations)
 or BitBucket (check Settings/Webhooks).
+
 This scenario shows how to:
 - setup a "prod" environment based on the master branch
 - setup a "dev" environment based on the env-dev branch
